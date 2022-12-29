@@ -615,9 +615,10 @@ GameObject:
   m_Component:
   - component: {fileID: 691300293092147546}
   - component: {fileID: 2617492250201962316}
+  - component: {fileID: 9132978288737478046}
   m_Layer: 0
   m_Name: Mesh1
-  m_TagString: Untagged
+  m_TagString: TexturePlayer
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -712,6 +713,24 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.0000064217093, y: 0.00000037685095, z: 0.000039638806}
     m_Extent: {x: 0.000076986136, y: 0.00022240845, z: 0.00030607538}
   m_DirtyAABB: 0
+--- !u!114 &9132978288737478046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6786252260498399326}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f32f8411e0341f4e816f9a95e2ab95b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MayroCar: {fileID: 0}
+  LuggyCar: {fileID: 0}
+  JoshyCar: {fileID: 0}
+  MayroTexture: {fileID: 2100000, guid: 1cd3017ee05d1da40968efacfcde813e, type: 2}
+  LuggyTexture: {fileID: 2100000, guid: 3507ffaa343162245b04127aca324830, type: 2}
+  JoshyTexture: {fileID: 2100000, guid: 9599f7120f7e38046ae598097dd72138, type: 2}
 --- !u!1 &6792678471983260362
 GameObject:
   m_ObjectHideFlags: 0
@@ -822,7 +841,7 @@ GameObject:
   - component: {fileID: 8781060818177018596}
   - component: {fileID: 8781060818177018594}
   m_Layer: 0
-  m_Name: LuggyCar
+  m_Name: PlayerCart
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -835,7 +854,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8439166928616316310}
-  m_LocalRotation: {x: -0, y: 0.7010121, z: -0, w: 0.7131495}
+  m_LocalRotation: {x: 0, y: 0.70101506, z: 0, w: 0.71314645}
   m_LocalPosition: {x: 0.65020895, y: -0.16799974, z: -0.93231213}
   m_LocalScale: {x: 3000.0007, y: 3000, z: 3000.0007}
   m_ConstrainProportionsScale: 0
@@ -1136,9 +1155,10 @@ GameObject:
   - component: {fileID: 8781060817773283228}
   - component: {fileID: 8781060817773283231}
   - component: {fileID: 8781060817773283230}
+  - component: {fileID: 7392939529102235927}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: TextureCar
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1221,6 +1241,24 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &7392939529102235927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8781060817773283201}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f32f8411e0341f4e816f9a95e2ab95b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MayroCar: {fileID: 2100000, guid: 3263a3cae1662e349b310ed55dfd4118, type: 2}
+  LuggyCar: {fileID: 2100000, guid: 867822b53603b9b4baa20a234046376a, type: 2}
+  JoshyCar: {fileID: 2100000, guid: 10e4f33450c69fd4fbb72554f4e2231d, type: 2}
+  MayroTexture: {fileID: 0}
+  LuggyTexture: {fileID: 0}
+  JoshyTexture: {fileID: 0}
 --- !u!1 &8781060817795905711
 GameObject:
   m_ObjectHideFlags: 0
