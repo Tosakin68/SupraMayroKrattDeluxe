@@ -1936,15 +1936,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8439166928616316310, guid: d1d178f71e406a247a10521e1f652588, type: 3}
       propertyPath: m_Name
-      value: LuggyCar
-      objectReference: {fileID: 0}
-    - target: {fileID: 8781060817593383837, guid: d1d178f71e406a247a10521e1f652588, type: 3}
-      propertyPath: m_ClearFlags
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8781060818177018596, guid: d1d178f71e406a247a10521e1f652588, type: 3}
-      propertyPath: playerSpeed
-      value: 20
+      value: PlayerCar
       objectReference: {fileID: 0}
     - target: {fileID: 9103500219010909996, guid: d1d178f71e406a247a10521e1f652588, type: 3}
       propertyPath: m_RootOrder
