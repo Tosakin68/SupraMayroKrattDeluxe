@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 2560
     height: 1357
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Game
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 371}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 61
+  controlID: 18
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -224,7 +224,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 62
+  controlID: 19
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -249,7 +249,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 63
+  controlID: 20
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -346,22 +346,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Materials
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Materials
+  - Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: D:\Repositories\SupraMayroKrattDeluxe
+  m_LastProjectPath: D:\Repositories\SupraMayroKrattDeluxeNew
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 1a620000
-    m_LastClickedID: 25114
-    m_ExpandedIDs: 000000003a5c00005a5c00005c5c00005479000000ca9a3bffffff7f
+    m_SelectedIDs: e2820000
+    m_LastClickedID: 33506
+    m_ExpandedIDs: 00000000e282000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -389,7 +389,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000003a5c0000
+    m_ExpandedIDs: 
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -519,21 +519,21 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 9e24ffffee24ffff7626ffff8826ffff7228ffffc228ffff5e2bffff842bffffd22fffffb237ffffa045ffff6046ffffd24bffff7e53ffff3e54ffff9057ffff9c6bffff5c6cffff686fffff489dffff089effff8cbdffff6ebffffff4c1ffffcac6ffff02d6ffff52dfffffbae1ffff0ae9ffffd0ebffff0cf0ffffe0f0ffff36fbfffff8670000
+      m_ExpandedIDs: 0cc1ffff5cc1fffff4c3ffff16c4ffffc4c9ffff14caffffacccffffceccffff90d0ffff78d2ffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: BotCar
-        m_OriginalName: BotCar
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -47522
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 4}
       m_SearchString: 
@@ -852,7 +852,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.00408284, y: 0.91297746, z: -0.40805364, w: -0.010027481}
     speed: 2
-    m_Value: {x: -0.004067488, y: 0.9135187, z: -0.40665263, w: -0.010032826}
+    m_Value: {x: -0.004082528, y: 0.9129077, z: -0.40802246, w: -0.010026715}
   m_Size:
     m_Target: 12.124355
     speed: 2

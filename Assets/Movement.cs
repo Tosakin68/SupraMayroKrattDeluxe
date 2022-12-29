@@ -26,7 +26,7 @@ public class Movement : MonoBehaviour
         // transform.Translate(transform.forward * playerSpeed * Time.deltaTime * Input.GetAxis("Vertical"));
         // ----------------------------------------------------------------------------------------------------------------
         // transform.position += -transform.forward * Time.deltaTime * playerSpeed * Input.GetAxis("Vertical");
-        _playerRigidbody.velocity += -transform.forward * playerSpeed * Input.GetAxis("Vertical");
+        _playerRigidbody.velocity += -transform.forward * playerSpeed * Time.deltaTime * Input.GetAxis("Vertical");
 
     }
 
