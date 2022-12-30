@@ -1,12 +1,14 @@
+using Mirror;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Movement : MonoBehaviour
+public class Movement : NetworkBehaviour
 {
     Rigidbody _playerRigidbody;
     public float playerSpeed;
     public float rotationSpeed;
+    public GameObject playercamera;
     void Start()
     {
         _playerRigidbody = GetComponent<Rigidbody>();
@@ -14,6 +16,11 @@ public class Movement : MonoBehaviour
 
     void Update()
     {
+        if(!isLocalPlayer)
+        {
+            playercamera.SetActive(false);
+            return;
+        }
         Move();
         Brake();
         Rotate();
